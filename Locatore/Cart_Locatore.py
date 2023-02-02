@@ -1,0 +1,12 @@
+class Cart_Page_Locatore():
+    cart_button = "//a[@id='cartur']"
+    click_place_order_button = "//button[contains(text(),'Place Order')]"
+    total_name = "//input[@id='name']"
+    country_name = "//input[@id='country']"
+    city_name = "//input[@id='city']"
+    cridit_carde = "//input[@id='card']"
+    month = "//input[@id='month']"
+    year = "//input[@id='year']"
+    purchase = "//button[contains(text(),'Purchase')]"
+    close_button = "//body/div[@id='orderModal']/div[1]/div[1]/div[3]/button[1]"
+    # NULL = ""
